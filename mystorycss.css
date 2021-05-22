@@ -42,7 +42,7 @@ span{
     font-size: 40px;
     margin-left: 50px;
 }
-.name h2{
+ h2{
     color: white;
     text-align: center;
 }
@@ -67,7 +67,7 @@ h3{
     padding-left: 50%;
 }
 
-h2{
+h3{
     min-width: 50px;
     min-height: 50px;
     margin-bottom: 0;
