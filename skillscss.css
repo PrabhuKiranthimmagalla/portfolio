@@ -1,0 +1,131 @@
+body{
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+
+.skillset{
+    width: 485px;
+    background-color:black;
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 35%; 
+
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    color: white;
+    font-family: helvetica;
+    background-color: black;
+    margin-bottom: 2rem;
+
+}
+
+h2{
+    color:white;
+}
+
+/*Core Skills*/
+
+.HTML{
+    width: 80%;
+    background-color: white;
+    color: black;
+    
+}
+
+.CSS{
+    width: 80%;
+    background-color: white;
+    color: black;
+}
+
+.JS{
+    width: 65%;
+    background-color: white;
+    color: black;
+}
+
+.Python{
+    width: 75%;
+    background-color: white;
+    color: black;
+}
+
+/*soft skills*/
+
+.AL{
+    width: 80%;
+    background-color: white;
+    color: black;
+}
+
+.TMS{
+    width: 70%;
+    background-color: white;
+    color: black;
+}
+
+.Communication{
+    width: 70%;
+    background-color: white;
+    color: black;
+}
+
+.TP{
+    width: 80%;
+    background-color: white;
+    color: black;
+}
+
+.PS{
+    width: 75%;
+    background-color: white;
+    color: black;
+}
+
+
+.sidenav{
+    background-repeat: no-repeat;
+    display: none;
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.sidenav a{
+    padding: 30px 28px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:whitesmoke;
+    display: block;
+} 
+
+span{
+    color: white;
+}
+
+.sidenav a:hover {
+    color: grey;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    color:white;
+    top: 5%;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+}

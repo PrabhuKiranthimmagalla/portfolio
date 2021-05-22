@@ -1,0 +1,97 @@
+body{
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.logos h3, .logos i {
+    margin: 0;
+    color: white;
+    display: block;
+    max-width: max-content;
+}
+
+.insta i{
+    font-size: 50px;
+    padding-left: 80px;
+}
+
+.email i{
+    font-size: 35px;
+    padding-left: 135px;
+}
+
+.linkedin i{
+    font-size: 50px;
+    padding-left: 170px;
+}
+
+
+.phone i{
+    font-size: 20px;
+    padding-left: 125px;
+}
+.sidenav{
+    background-repeat: no-repeat;
+    display: none;
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.sidenav a{
+    padding: 30px 28px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:whitesmoke;
+    display: block;
+} 
+
+span{
+    color: white;
+}
+
+.sidenav a:hover {
+    color: rgb(100, 72, 72);
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    color:white;
+    top: 5%;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+
+
+h4{
+    font-style: italic;
+    text-align: center;
+    color:white;
+}
+
+h1{
+    color: white;
+    padding-left: 600px;
+    font-style: italic;
+}
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="skillscss.css">
+        <title>Skills | Prabhu</title>
+    </head>
+    <body>
+       <div id="hamburger" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="myStory.html">myStory</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">education</a>
+            <a href="contact.html">contact</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <script>
+            function openNav() {
+                document.getElementById("hamburger").style.display = "block";
+            }
+            function closeNav() {
+                document.getElementById("hamburger").style.display = "none";
+            }
+        </script>
+        <!--Skills bar-->
+        <div class="skillset">
+            <h2>Core Skills</h2>
+            <div class="skills HTML">HTML</div>
+            <div class="skills CSS">CSS</div>
+            <div class="skills JS">JavaScript</div>
+            <div class="skills Python">Python</div>
+            
+            <h2>Soft Skills</h2>
+            <div class="skills AL">Active Listening</div>
+            <div class="skills TMS">Time Management Skills</div>
+            <div class="skills Communication">Communication</div>
+            <div class="skills TP">Team Player</div>
+            <div class="skills PS">Problem Solving</div>
+
+        </div>
+        <!--End of Skills bar-->
+                
+    </body>
+</html>
