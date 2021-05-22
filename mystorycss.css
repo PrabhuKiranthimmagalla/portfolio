@@ -50,8 +50,9 @@ span{
 .location i{
     text-align: center;
     color: white;
-    padding-left: 45%;
+    margin: auto;
     font-size: 25px;
+    display: block;
 }
 
 p{
@@ -60,11 +61,10 @@ p{
     text-align: center;
 }
 
-h3{
+h4{
     color: white;
     font-style: oblique;
     text-align: center;
-    padding-left: 50%;
 }
 
 h3{

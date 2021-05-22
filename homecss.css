@@ -38,11 +38,17 @@ h1,h2{
 .prabhu-image{
     /* background-repeat: no-repeat; */
     /* background-size: 100% 100%;   */
-    width: 600px;
-    height: 200px;
-    padding-bottom: 25%;
-    padding-left: 25%;
-    position: fixed;
+    /* width: 600px;
+    height: 200px; */
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    transition: 0.3s all;
+}
+
+.prabhu-image:hover {
+    max-width: 420px;
+    
 }
 
 .sidenav{
@@ -103,5 +109,9 @@ h2{
     z-index: 99;   
 }
 
+h3{
+    color: white;
+    text-align: center;
+}
 
 
