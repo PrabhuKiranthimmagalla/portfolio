@@ -107,3 +107,15 @@ tbody td:hover:before{
     background-color: rgba(236, 229, 233, 0.2);
     z-index: -1;
 }
+
+h2{
+    min-width: 50px;
+    min-height: 50px;
+    margin-bottom: 0;
+    margin: 0;
+    color: white;
+    display: block;
+    max-width: max-content;
+    padding-top: calc(100vh - 400px);
+    z-index: 99;   
+}
