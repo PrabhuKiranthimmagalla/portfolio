@@ -3,9 +3,10 @@ body{
     height: 100%;
     width: 100%;
     background-color:black;
+    padding: 0%;
 }
 
-.skillset{
+/*.skillset{
     width: 485px;
     background-color:black;
     padding: 10px;
@@ -15,23 +16,22 @@ body{
     right: 0;
     left: 35%; 
 
-}
+}*/
 
-.skills{
-    text-align: right;
-    padding-top: 10px;
+/*.skills{
+    text-align: left;
     color: white;
-    font-family: helvetica;
+    font-family: arial black;
     background-color: black;
     margin-bottom: 2rem;
 
-}
+}*/
 
 h2{
     color:white;
 }
 
-/*Core Skills*/
+/*Core Skills
 
 .HTML{
     width: 80%;
@@ -56,9 +56,9 @@ h2{
     width: 75%;
     background-color: white;
     color: black;
-}
+}/*
 
-/*soft skills*/
+/*soft skills
 
 .AL{
     width: 80%;
@@ -88,7 +88,7 @@ h2{
     width: 75%;
     background-color: white;
     color: black;
-}
+}*/
 
 
 .sidenav{
@@ -130,7 +130,7 @@ span{
     margin-left: 50px;
 }
 
-h3{
+h4{
     min-width: 50px;
     min-height: 50px;
     margin-bottom: 0;
@@ -141,3 +141,179 @@ h3{
     padding-top: calc(100vh - 400px);
     z-index: 99;   
 }
+
+
+/*.skills{
+    transition-property:width;
+    transition-duration: 2s;
+    height: 100%;
+    transform-origin: right;
+
+
+}
+
+.skills:hover{
+    width: 15rem;
+}*/
+
+
+
+
+.skills{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: black;
+    display: block;
+    height: 2px;
+    border: 1px solid;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: white;
+}
+
+.html{
+    width: 80%;
+    animation: html 2s;
+}
+
+.css{
+    width: 70%;
+    animation: css 2s;
+}
+
+.javascript{
+    width: 60%;
+    animation: javascript 2s;
+}
+
+.python{
+    width: 70%;
+    animation: python 2s;
+}
+
+.al{
+    width: 80%;
+    animation: al 2s;
+}
+
+.tms{
+    width: 70%;
+    animation: tms 2s;
+}
+
+.communication{
+    width: 65%;
+    animation: communication 2s;
+}
+
+.tp{
+    width: 70%;
+    animation: tp 2s;
+}
+
+.ps{
+    width: 65%;
+    animation: ps 2s;
+}
+
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes al{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes tms{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes communication{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes tp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes ps{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+

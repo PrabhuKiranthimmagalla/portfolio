@@ -57,13 +57,13 @@ span{
 
 p{
     color: white;
-    font-family: Helvetica;
+    font-family: sans-serif;
     text-align: center;
 }
 
-h4{
+h4,h2{
     color: white;
-    font-style: oblique;
+    font-style: sans-serif;
     text-align: center;
 }
 
@@ -78,5 +78,15 @@ h3{
     padding-top: calc(100vh - 400px);
     z-index: 99;   
 }
+h4{
+    font-family: sans-serif;
+}
 
+.location i{
+    max-width: 400px;
+
+    display: block;
+    margin: auto;
+    transition: 0.3s all;
+}
 
