@@ -43,13 +43,20 @@ h1,h2{
     max-width: 400px;
     display: block;
     margin: auto;
+    position: relative;
     transition: 0.3s all;
+    border-radius: 50%;
 }
 
 .prabhu-image:hover {
     max-width: 420px;
-    border-radius: 50%;
     
+}
+
+.prabhu-image img{
+    display: block;
+    position: relative;
+    border-radius: 50%;
 }
 
 .sidenav{
