@@ -114,7 +114,7 @@ h2{
 .about h3{
     color: white;
     text-align: center;
-    font-family: serif;
+    font-family: 'Mate SC', serif;
 }
 
 h2{
@@ -132,13 +132,13 @@ h2{
 
 p{
     color: white;
-    font-family: serif;
+    font-family: 'Mate SC', serif;
     text-align: center;
 }
 
 h4,h2{
     color: white;
-    font-style: serif;
+    font-style: 'Mate SC', serif;
     text-align: center;
 }
 
@@ -162,7 +162,7 @@ h4,h2{
 
 .skills{
     width: 300px;
-    font-family: serif;
+    font-family: 'Mate SC', serif;
     list-style: none;
     padding: 0;
 }
@@ -321,7 +321,7 @@ h4,h2{
 }
 
 h4{
-    font-family: serif;
+    font-family: 'Mate SC', serif;
     text-align: center;
     color:white;
 }
@@ -351,13 +351,13 @@ h4{
 .container th{
     text-align: left;
     background-color: #3f8585;
-    font-family: serif;
+    font-family: 'Mate SC', serif;
     font-size: 20px;
 }
 
 .container tbody td{
     position: relative;
-    font-family: serif;
+    font-family: 'Mate SC', serif;
     font-size: 15px;
 }
 
@@ -381,7 +381,7 @@ h4{
 
 .contact h1{
     color: white;
-    font-family: Segoe 'Segoe UI';
+    font-family: 'Mate SC', serif;
     text-align: center;
     padding-top: 10rem;
     margin-bottom: 5rem;
@@ -509,7 +509,7 @@ html{
     
     body h1{
         text-align: center;
-        font-family: serif;
+        font-family: 'Mate SC', serif;
         color: white;
     }
     
@@ -545,6 +545,7 @@ html{
     #home h3{
         color: white;
         text-align: center;
+        font-family: 'Mate SC', serif
     }
     
     
@@ -569,7 +570,7 @@ html{
     .about h3{
         color: white;
         text-align: center;
-        font-family: serif;
+        font-family: 'Mate SC', serif;
     }
     
     h2{
@@ -587,19 +588,19 @@ html{
     
     p{
         color: white;
-        font-family: serif;
+        font-family: 'Mate SC', serif;
         text-align: center;
     }
     
     h4,h2{
         color: white;
-        font-style: serif;
+        font-style: 'Mate SC', serif;
         text-align: center;
     }
     
     
     .location h4{
-        font-family: serif;
+        font-family: 'Mate SC', serif;
         margin-bottom: 5px;
     }
     
@@ -614,7 +615,7 @@ html{
     
     
     .skills{
-        font-family: serif;
+        font-family: 'Mate SC', serif;
         list-style: none;
         padding: 0;
     }
@@ -774,7 +775,7 @@ html{
     }
     
     h4{
-        font-family: serif;
+        font-family: 'Mate SC', serif;
         text-align: center;
         color:white;
     }
@@ -804,13 +805,13 @@ html{
     .container th{
         text-align: left;
         background-color: #3f8585;
-        font-family: serif;
+        font-family: 'Mate SC', serif;
         font-size: 20px;
     }
     
     .container tbody td{
         position: relative;
-        font-family: serif;
+        font-family: 'Mate SC', serif;
         font-size: 15px;
     }
     
@@ -834,7 +835,7 @@ html{
     
     .contact h1{
         color: white;
-        font-family: Segoe 'Segoe UI';
+        font-family: 'Mate SC', serif;
         text-align: center;
         padding-top: 10rem;
         margin-bottom: 5rem;
