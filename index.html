@@ -8,27 +8,36 @@
 
     </head>
     <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#me">About</a></li>
+                <li><a href="#known">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#touch">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="close">
+            <div id="hamburger" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()",>&times;</a>
+                <a href="#home"  onclick="closeNav()">Home</a>
+                <a href="#me"  onclick="closeNav()">About</a>
+                <a href="#known"  onclick="closeNav()">Skills</a>
+                <a href="#education"  onclick="closeNav()">education</a>
+                <a href="#touch"  onclick="closeNav()">contact</a>
+                <h2>.__. ._. ._ _... .... ..._</h2>
 
-       <div id="hamburger" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()",>&times;</a>
-            <a href="#home"  onclick="closeNav()">Home</a>
-            <a href="#me"  onclick="closeNav()">About</a>
-            <a href="#known"  onclick="closeNav()">Skills</a>
-            <a href="#education"  onclick="closeNav()">education</a>
-            <a href="#touch"  onclick="closeNav()">contact</a>
-            <h2>.__. ._. ._ _... .... ..._</h2>
-    
-
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <script>
+                function openNav() {
+                    document.getElementById("hamburger").style.display = "block";
+                }
+                function closeNav() {
+                    document.getElementById("hamburger").style.display = "none";
+                }
+            </script>
         </div>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        <script>
-            function openNav() {
-                document.getElementById("hamburger").style.display = "block";
-            }
-            function closeNav() {
-                document.getElementById("hamburger").style.display = "none";
-            }
-        </script>
             <div id="home">
                 <h1>Prabhu Kiran Thimmagalla</h1>
 
