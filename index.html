@@ -1,67 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="finalcss.css">
-        <title>Prabhu</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-        <link rel="icon" type="image/jpg" href="PK-LOGO.jpg">
 
-    </head>
-    <body>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#me">About</a></li>
-                <li><a href="#known">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#touch">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="close">
-            <div id="hamburger" class="sidenav" style="background-color: black;">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()",>&times;</a>
-                <a href="#home"  onclick="closeNav()">Home</a>
-                <a href="#me"  onclick="closeNav()">About</a>
-                <a href="#known"  onclick="closeNav()">Skills</a>
-                <a href="#education"  onclick="closeNav()">education</a>
-                <a href="#touch"  onclick="closeNav()">contact</a>
-                <img src="PK-LOGO.jpg" class="sidenavimg" alt="logo" style="width:60%; margin-left: 5rem; margin-top:7rem; border-radius: 50%; " />
+<head>
+    <link rel="stylesheet" href="finalcss.css">
+    <title>Prabhu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="icon" type="image/jpg" href="PK-LOGO.jpg">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#me">About</a></li>
+            <li><a href="#known">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#touch">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="close">
+        <div id="hamburger" class="sidenav" style="background-color: black;">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" ,>&times;</a>
+            <a href="#home" onclick="closeNav()">Home</a>
+            <a href="#me" onclick="closeNav()">About</a>
+            <a href="#known" onclick="closeNav()">Skills</a>
+            <a href="#education" onclick="closeNav()">education</a>
+            <a href="#touch" onclick="closeNav()">contact</a>
+            <img src="PK-LOGO.jpg" class="sidenavimg" alt="logo"
+                style="width:60%; margin-left: 5rem; margin-top:7rem; border-radius: 50%; " />
 
 
-            </div>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            <script>
-                function openNav() {
-                    document.getElementById("hamburger").style.display = "block";
-                }
-                function closeNav() {
-                    document.getElementById("hamburger").style.display = "none";
-                }
-            </script>
         </div>
-            <div id="home">
-                <h1>Prabhu Kiran Thimmagalla</h1>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-                <div class="prabhu-image">
-                    <img alt="error" src="pic.jpg">
-                </div>
-                <h3>Hi! Iam Prabhu.</h3>
-            </div>
-                
+    </div>
+    <div id="home">
+        <h1>Prabhu Kiran Thimmagalla</h1>
+
+        <div class="prabhu-image">
+            <img alt="error" src="pic.jpg">
+        </div>
+        <h3>Hi! Iam Prabhu.</h3>
+    </div>
+
     <div id="me">
         <div class="about">
-            
+
             <div class="location">
                 <i class="fas fa-map-marker-alt"> : Hyderabad</i>
             </div>
-    
-            <p>Hi! Iam Prabhu, Iam a Learner,I wanted to build a site for myself and i have  built this site.</p>
-                <p>and coming to my hobbies:
-                    I love to Play Cricket and spend time with my friends. 
-                </p>
-                <p>so thats a little about me.</p>
-                <h4>- Prabhu</h4>
+
+            <p>Hi! Iam Prabhu, Iam a Learner,I wanted to build a site for myself and i have built this site.</p>
+            <p>and coming to my hobbies:
+                I love to Play Cricket and spend time with my friends.
+            </p>
+            <p>so thats a little about me.</p>
+            <h4>- Prabhu</h4>
         </div>
     </div>
 
@@ -71,39 +69,40 @@
         <div class="skills">
             <h2 style="padding-top: 30px;">Core Skills</h2>
             <li>
-                <h3>HTML</h3><span class="bar"><span class="html"></span></span>
+                <h3>HTML</h3><span class="bar"><span class="progress-bar"data-width="80"></span></span>
             </li>
             <li>
-                <h3>CSS</h3><span class="bar"><span class="css"></span></span>
-            </li><li>
-                <h3>JavaScript</h3><span class="bar"><span class="javascript"></span></span>
+                <h3>CSS</h3><span class="bar"><span class="progress-bar"data-width="80"></span></span>
             </li>
             <li>
-                <h3>Python</h3><span class="bar"><span class="python"></span></span>
+                <h3>JavaScript</h3><span class="bar"><span class="progress-bar"data-width="70"></span></span>
+            </li>
+            <li>
+                <h3>Python</h3><span class="bar"><span class="progress-bar"data-width="75"></span></span>
             </li>
             <br>
             <br>
             <br>
-            
+
             <h2 style="padding-top: 30px;">Soft Skills</h2>
             <li>
-                <h3>Active Listening</h3><span class="bar"><span class="al"></span></span>
+                <h3>Active Listening</h3><span class="bar"><span class="progress-bar"data-width="90"></span></span>
             </li>
             <li>
-                <h3>Time Management skills</h3><span class="bar"><span class="tms"></span></span>
+                <h3>Time Management skills</h3><span class="bar"><span class="progress-bar"data-width="80"></span></span>
             </li>
             <li>
-                <h3>Communication</h3><span class="bar"><span class="communication"></span></span>
+                <h3>Communication</h3><span class="bar"><span class="progress-bar"data-width="75"></span></span>
             </li>
             <li>
-                <h3>Team Player</h3><span class="bar"><span class="tp"></span></span>
+                <h3>Team Player</h3><span class="bar"><span class="progress-bar"data-width="80"></span></span>
             </li>
             <li>
-                <h3>Problem Solving</h3><span class="bar"><span class="ps"></span></span>
+                <h3>Problem Solving</h3><span class="bar"><span class="progress-bar"data-width="75"></span></span>
             </li>
         </div>
     </div>
-    
+
     <!--End of Skills bar-->
     <br>
     <br>
@@ -141,23 +140,56 @@
             <h1>Get in touch</h1>
             <div class="logos">
                 <ul>
-                    <li><a href="https://www.instagram.com/prabhu__kiran/" target="_blank"><i class="fab fa-instagram"></i></a> </li>
-                    <li><a href="mailto: prabhukiran183@gmail.com" target="_blank">  <i class="fas fa-envelope"></i> </a></li>
-                    <li><a href="https://www.linkedin.com/in/prabhu-kiran-a499261aa" target="_blank" > <i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/prabhu__kiran/" target="_blank"><i
+                                class="fab fa-instagram"></i></a> </li>
+                    <li><a href="mailto: prabhukiran183@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> </a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/prabhu-kiran-a499261aa" target="_blank"> <i
+                                class="fab fa-linkedin"></i></a></li>
                 </ul>
                 <br>
                 <br>
                 <br>
-    
+
                 <br>
-    
+
                 <br>
-    
+
             </div>
         </div>
     </div>
-    
-    
+    <script>
+        function openNav() {
+            document.getElementById("hamburger").style.display = "block";
+        }
+        function closeNav() {
+            document.getElementById("hamburger").style.display = "none";
+        }
 
-    </body>
+        var bars = document.querySelectorAll(".progress-bar");
+        var options = {
+            root: null,
+            rootmargin: "0",
+            threshold: 0.2,
+        };
+
+        var observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) {
+                    return;
+                }
+                entry.target.style.width = entry.target.getAttribute("data-width") + "%";
+                observer.unobserve(entry.target);
+            });
+        }, options);
+
+        bars.forEach((bar) => {
+            observer.observe(bar);
+        });
+    </script>
+
+
+
+</body>
+
 </html>
