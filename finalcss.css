@@ -191,7 +191,6 @@ h4,h2{
     border: 1px solid;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 0 10px;
 }
 
 .bar span{
@@ -678,7 +677,6 @@ html{
         border: 1px solid;
         border-radius: 3px;
         overflow: hidden;
-        box-shadow: 0 0 10px;
     }
     
     .bar span{
