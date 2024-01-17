@@ -246,6 +246,15 @@ h4,h2{
     }
 }
 
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
 @keyframes al{
     0%{
         width: 0%;
@@ -305,49 +314,6 @@ h4{
     transform: -50%,-50%;
     
 }
-
-.container table{
-    border-collapse: collapse;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    margin-bottom: 10rem;
-}
-
-.container td,th{
-    padding: 15px;
-    background-color: rgba(247, 225, 225, 0.2);
-    color:white;
-}
-.container th{
-    text-align: left;
-    background-color: #3f8585;
-    font-family: 'Mate SC', serif;
-    font-size: 20px;
-}
-
-.container tbody td{
-    position: relative;
-    font-family: 'Mate SC', serif;
-    font-size: 15px;
-}
-
-.container tbody tr:hover{
-    background-color: rgba(255, 255, 255, 0.3);
-
-}
-
-.container tbody td:hover:before{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -9999px;
-    bottom: -9999px;
-    background-color: rgba(236, 229, 233, 0.2);
-    z-index: -1;
-}
-
-
 
 .contact h1{
     color: white;
@@ -696,6 +662,15 @@ html{
             width: 70%;
         }
     }
+
+    @keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
     
     @keyframes al{
         0%{
