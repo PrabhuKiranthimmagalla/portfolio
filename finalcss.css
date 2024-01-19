@@ -113,9 +113,6 @@ h2{
     z-index: 99;   
 }
 
-#me{
-    margin-top: 10rem;
-}
 
 .about h3{
     color: white;
@@ -529,10 +526,6 @@ html{
         max-width: max-content;
         padding-top: calc(100vh - 400px);
         z-index: 99;   
-    }
-    
-    #me{
-        margin-top: 10rem;
     }
     
     .about h3{
